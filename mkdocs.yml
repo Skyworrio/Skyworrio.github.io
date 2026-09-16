@@ -1,0 +1,96 @@
+site_name: Cade Clonts
+site_description: Electrical engineer — embedded hardware, power electronics, and controls. Portfolio of projects.
+site_url: https://skyworrio.github.io
+repo_url: https://github.com/Skyworrio/Skyworrio.github.io
+edit_uri: ""
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.png
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - glightbox
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Pages ending in _draft.md are built locally with `mkdocs serve` but never deployed.
+draft_docs: |
+  **/*_draft.md
+
+not_in_nav: |
+  assets
+
+copyright: "&copy; 2026 Cade Clonts"
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Skyworrio
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:YOUR-EMAIL
+      name: Email
+
+nav:
+  - Home: index.md
+  - Projects:
+      - projects/index.md
+      - ESP32 Wi-Fi / MQTT Gateway Board: projects/wifi-mqtt-board/index.md
+      - Industry Capstone: projects/capstone_draft.md
+      - Microgrid Design (Xendee): projects/microgrid_draft.md
+      - ROS Color-Tracking Robot: projects/ros-tracking_draft.md
+  - Resume: resume.md
