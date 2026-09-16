@@ -44,6 +44,9 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences:
@@ -90,7 +93,8 @@ nav:
   - Projects:
       - projects/index.md
       - ESP32 Wi-Fi / MQTT Gateway Board: projects/wifi-mqtt-board/index.md
-      - Industry Capstone: projects/capstone_draft.md
-      - Microgrid Design (Xendee): projects/microgrid_draft.md
-      - ROS Color-Tracking Robot: projects/ros-tracking_draft.md
+      # When a draft is ready: rename projects/<name>_draft.md -> projects/<name>.md and add it here, e.g.
+      # - Industry Capstone: projects/capstone.md
+      # - Microgrid Design (Xendee): projects/microgrid.md
+      # - ROS Color-Tracking Robot: projects/ros-tracking.md
   - Resume: resume.md

@@ -1,5 +1,5 @@
 ---
-title: Cade Clonts
+title: Home
 hide:
   - toc
 ---

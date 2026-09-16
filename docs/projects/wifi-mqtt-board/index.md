@@ -4,7 +4,7 @@ title: ESP32 Wi-Fi / MQTT Gateway Board
 
 # ESP32 Wi-Fi / MQTT Gateway Board
 
-![Assembled Wi-Fi gateway board](img/hero.jpg)
+![Assembled Wi-Fi gateway board](img/board-top.jpg){ width="560" }
 
 <div class="grid" markdown>
 
@@ -89,7 +89,7 @@ Design choices that mattered on the bench:
 
 <div class="grid" markdown>
 
-![Assembled board, top](img/board-top.jpg)
+![Bare board as fabricated](img/hero.jpg)
 
 ![Assembled board, bottom](img/board-bottom.jpg)
 
