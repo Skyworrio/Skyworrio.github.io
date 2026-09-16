@@ -1,0 +1,6 @@
+/* Slightly wider content area for image grids */
+.md-grid { max-width: 68rem; }
+/* Images in grids get a subtle frame */
+.md-typeset .grid img { border-radius: 6px; border: 1px solid var(--md-default-fg-color--lightest); }
+/* Project meta tables: no header row styling noise */
+.md-typeset table:not([class]) th:empty { display: none; }
