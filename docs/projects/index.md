@@ -13,6 +13,7 @@ Each page follows the same shape: what the thing is, what I personally built, th
 | Project | What it is | Skills |
 |---|---|---|
 | [**ESP32 Wi-Fi / MQTT Gateway Board**](wifi-mqtt-board/index.md) | Custom PCB and firmware bridging a multi-board UART network to an MQTT broker over TLS | Altium, ESP32, MicroPython, power-rail design, protocol design |
+| [**AM Capillary Wicks**](capillary-wicks/index.md) | Research: branching channel networks for passive heat-pipe wicking, printed by MSLA | MSLA printing, design of experiments, microscopy, fluid physics |
 | **Industry Capstone** *(coming)* | Two-semester senior design prototype for an industry sponsor | Systems engineering, prototyping, client requirements |
 | **Microgrid Design in Xendee** *(coming)* | Techno-economic design and dispatch modeling of a microgrid | Xendee, DER sizing, energy economics |
 | **ROS Color-Tracking Robot** *(coming)* | Color-based object tracking on a ROSMASTER X3 | ROS, Python, computer vision, systems engineering |
@@ -26,5 +27,6 @@ Shorter projects worth a mention:
 - **Digital filter design in MATLAB** — designed and compared Butterworth and other IIR filters for an analog-digital interface project (EGR 334).
 - **Electronic packaging cross-section** — cross-sectioned, potted, and polished an Xbox CPU/GPU and DRAM package and inspected the solder-ball interconnects under a microscope (EGR 394, Heterogeneous Integration and Electronic Packaging).
 - **Custom under-desk PC case** — sheet-metal fabrication of a slim PC enclosure.
+- **Electronic packaging teardown (video)** — cross-sectioned an Xbox Series S and One S CPU/GPU and DRAM package, potted in epoxy, ground and polished for microscope imaging and generational comparison.
 
 <!-- TODO: link these to short pages or add a photo for each once material is gathered -->

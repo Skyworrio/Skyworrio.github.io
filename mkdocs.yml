@@ -93,6 +93,7 @@ nav:
   - Projects:
       - projects/index.md
       - ESP32 Wi-Fi / MQTT Gateway Board: projects/wifi-mqtt-board/index.md
+      - AM Capillary Wicks (Research): projects/capillary-wicks/index.md
       # When a draft is ready: rename projects/<name>_draft.md -> projects/<name>.md and add it here, e.g.
       # - Industry Capstone: projects/capstone.md
       # - Microgrid Design (Xendee): projects/microgrid.md

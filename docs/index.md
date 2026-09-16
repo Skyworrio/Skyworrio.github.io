@@ -39,13 +39,13 @@ I hold a B.S. in Electrical Systems Engineering from Arizona State University an
 
     [:octicons-arrow-right-24: Read more](projects/wifi-mqtt-board/index.md)
 
--   :material-factory: **Industry Capstone**
+-   :material-water: **AM Capillary Wicks (Research)**
 
     ---
 
-    Two-semester senior design project prototyping a system for an industry sponsor. *(Write-up coming.)*
+    Undergraduate research in ASU's 3DX Research Group: do branching channel networks designed to Murray's Law or da Vinci's rule move liquid better, for passive heat-pipe wicks printed by MSLA?
 
-    [:octicons-arrow-right-24: Read more](projects/index.md)
+    [:octicons-arrow-right-24: Read more](projects/capillary-wicks/index.md)
 
 -   :material-transmission-tower: **Microgrid Design in Xendee**
 
