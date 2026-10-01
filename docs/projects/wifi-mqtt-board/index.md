@@ -2,33 +2,27 @@
 title: ESP32 Wi-Fi / MQTT Gateway Board
 ---
 
+[:material-arrow-left: All projects](../index.md){ .back-link }
+
 # ESP32 Wi-Fi / MQTT Gateway Board
 
+<p class="lede">A custom PCB and firmware that bridges a chain of embedded boards to the internet.</p>
+
 ![Assembled Wi-Fi gateway board](img/board-top.jpg){ width="560" }
-
-<div class="grid" markdown>
-
-<div markdown>
-
-**A custom PCB and firmware that bridges a chain of embedded boards to the internet.**
 
 Three of us built a networked cooling-system demo for the ASU Innovation Showcase: a temperature sensor drives a fan through a chain of independent boards, and the whole thing can be monitored and controlled from a web dashboard. I owned the internet side of that — the board that talks to the MQTT broker, the wire protocol the boards use to talk to each other, and the firmware that moves messages between the two.
 
 The board went from schematic to fabricated, assembled, and running at the showcase in one semester.
 
-</div>
-
-<div markdown>
+<div class="project-meta" markdown>
 
 | | |
 |---|---|
 | **Role** | Sole designer of this board: schematic, layout, BOM, firmware, enclosure |
 | **Team** | 3 people, one board each (HMI, actuator, gateway) |
 | **When** | Spring 2025 · ASU EGR 314 |
-| **Tools** | Altium Designer, MicroPython, ESP32-S3, CAD for enclosure *(TODO: which CAD tool / which fab house?)* |
+| **Tools** | Altium Designer, MicroPython, ESP32-S3, CAD for enclosure <!-- TODO: which CAD tool / which fab house? --> |
 | **Files** | [Altium project](files/altium-project.zip) · [Gerbers](files/gerber-files-cc-v1.2.zip) · [Schematic PDF](files/altium-schematic.pdf) · [Firmware](files/esp32_mqtt_Rev2.3.zip) |
-
-</div>
 
 </div>
 
@@ -77,7 +71,8 @@ Design choices that mattered on the bench:
 - **Five test points** (3.3 V, 12 V, GND, TX, RX) for scope probing without fighting for pad access.
 - **Four debug LEDs** on GPIO, plus a debug pushbutton, so message flow is visible without a serial console.
 - **Reset and Boot switches** so firmware can be reflashed without touching jumpers.
-- **Module antenna hangs off the board edge** so there's no copper under it. *(TODO: confirm this was intentional — if so, keep; otherwise delete.)*
+- **Module antenna hangs off the board edge** so there's no copper under it.
+<!-- TODO: confirm the antenna overhang was intentional — if so, keep; otherwise delete the bullet above. -->
 
 <div class="grid" markdown>
 
@@ -172,7 +167,7 @@ STEP files: [board case (top)](files/step/top-board-case.step) · [board case (b
 
 The chain ran end-to-end at the Innovation Showcase on May 2, 2025, with live temperature on the web dashboard and remote fan control.
 
-*(TODO — this is the section recruiters read. Add: did the board work on the first spin or need rework? Any measured numbers — rail voltage under load, message latency, uptime during the demo? One honest sentence about what broke and how you fixed it is worth more than a paragraph of "it worked.")*
+<!-- TODO — this is the section recruiters read. Add: did the board work on the first spin or need rework? Any measured numbers — rail voltage under load, message latency, uptime during the demo? One honest sentence about what broke and how you fixed it is worth more than a paragraph of "it worked." -->
 
 ## What I'd change in Rev 2
 

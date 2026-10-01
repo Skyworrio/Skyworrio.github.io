@@ -2,23 +2,19 @@
 title: Microgrid Design in Xendee
 ---
 
+[:material-arrow-left: All projects](../index.md){ .back-link }
+
 # Microgrid Design in Xendee
 
 <!-- DRAFT: this file ends in _draft.md so it is NOT deployed. Rename to microgrid.md (and update mkdocs.yml nav) when ready. -->
 
-![Hero image](img/TODO.jpg)
+<p class="lede">One-sentence description of what this is.</p>
 
-<div class="grid" markdown>
-
-<div markdown>
-
-**One-sentence description of what this is.**
+![Hero image](img/TODO.jpg){ width="560" }
 
 Two or three sentences: the problem, who it was for, what the outcome was.
 
-</div>
-
-<div markdown>
+<div class="project-meta" markdown>
 
 | | |
 |---|---|
@@ -27,8 +23,6 @@ Two or three sentences: the problem, who it was for, what the outcome was.
 | **When** | Semester · course or context |
 | **Tools** | |
 | **Files** | Links, or "Not shareable (NDA)" |
-
-</div>
 
 </div>
 

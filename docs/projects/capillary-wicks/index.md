@@ -2,17 +2,17 @@
 title: Additively Manufactured Capillary Wicks
 ---
 
+[:material-arrow-left: All projects](../index.md){ .back-link }
+
 # Additively Manufactured Capillary Wicks
 
-![Branching channel designs A and B](img/designs-a-b.png){ width="420" align=right }
+<p class="lede">Undergraduate research in the 3DX Research Group (ASU) on printing hair-like and channel structures for passive thermal management.</p>
 
-**Undergraduate research in the 3DX Research Group (ASU) on printing hair-like and channel structures for passive thermal management.**
+![Branching channel designs A and B](img/designs-a-b.png){ width="380" align=right }
 
 Heat pipes and vapor chambers cool electronics by moving heat through a capillary wick with no pump. Additive manufacturing can print wick geometries that conventional fabrication can't, which raises a question nature already answered for trees and blood vessels: does a *branching* network move liquid better than straight channels? My current project tests that directly by printing branching capillary networks designed to different scaling laws and racing water through them.
 
-<div class="grid" markdown>
-
-<div markdown>
+<div class="project-meta" markdown>
 
 | | |
 |---|---|
@@ -22,8 +22,6 @@ Heat pipes and vapor chambers cool electronics by moving heat through a capillar
 | **Program** | SURF / SCALE (DoD-supported) summer research fellowship, 2026 |
 | **Tools** | MSLA printing (Elegoo Saturn 4 Ultra 16K), CAD, optical microscopy (Keyence VHX), video flow tracking |
 | **Files** | [SURF-SCALE 2026 poster (PDF)](files/SURF-SCALE-2026-poster-Clonts.pdf) |
-
-</div>
 
 </div>
 

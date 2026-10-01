@@ -1,7 +1,8 @@
 site_name: Cade Clonts
-site_description: Electrical engineer — embedded hardware, power electronics, and controls. Portfolio of projects.
+site_description: Cade Clonts — electrical engineer working in embedded hardware, power electronics, and controls. Engineering project portfolio.
 site_url: https://skyworrio.github.io
-repo_url: https://github.com/Skyworrio/Skyworrio.github.io
+repo_url: https://github.com/Skyworrio
+repo_name: Skyworrio
 edit_uri: ""
 
 theme:
@@ -14,19 +15,24 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: deep orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
@@ -34,7 +40,9 @@ theme:
     - navigation.footer
     - toc.follow
     - content.code.copy
+    - content.tooltips
     - search.suggest
+    - search.highlight
 
 markdown_extensions:
   - attr_list
@@ -44,6 +52,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.keys
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -57,7 +67,9 @@ markdown_extensions:
 
 plugins:
   - search
-  - glightbox
+  - glightbox:
+      skip_classes:
+        - off-glb
 
 extra_css:
   - stylesheets/extra.css
@@ -81,12 +93,13 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Skyworrio
       name: GitHub
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
-      name: LinkedIn
-    - icon: fontawesome/solid/envelope
-      link: mailto:YOUR-EMAIL
-      name: Email
+    # TODO: add your real handle/address, then uncomment (also update the Contact section on index.md)
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
+    #   name: LinkedIn
+    # - icon: fontawesome/solid/envelope
+    #   link: mailto:YOUR-EMAIL
+    #   name: Email
 
 nav:
   - Home: index.md
