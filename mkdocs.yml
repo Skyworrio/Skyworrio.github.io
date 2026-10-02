@@ -107,8 +107,9 @@ nav:
       - projects/index.md
       - ESP32 Wi-Fi / MQTT Gateway Board: projects/wifi-mqtt-board/index.md
       - AM Capillary Wicks (Research): projects/capillary-wicks/index.md
+      - ROS Color-Tracking Patrol Robot: projects/ros-tracking/index.md
+      - Four-Wheel Steering Vehicle Dynamics: projects/4ws-vehicle-dynamics/index.md
       # When a draft is ready: rename projects/<name>_draft.md -> projects/<name>.md and add it here, e.g.
       # - Industry Capstone: projects/capstone.md
       # - Microgrid Design (Xendee): projects/microgrid.md
-      # - ROS Color-Tracking Robot: projects/ros-tracking.md
   - Resume: resume.md

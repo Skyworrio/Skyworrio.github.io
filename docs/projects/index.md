@@ -32,6 +32,26 @@ hide:
       <span class="project-card__cta">Read case study →</span>
     </div>
   </a>
+  <a class="project-card" href="ros-tracking/">
+    <div class="project-card__media"><img class="off-glb" src="../assets/thumbs/ros-tracking.jpg" alt="Patrol robot following a blue target card" loading="lazy"></div>
+    <div class="project-card__body">
+      <span class="project-card__meta">Robotics + vision · Spring 2026 · EGR 530</span>
+      <h3 class="project-card__title">ROS Color-Tracking Patrol Robot</h3>
+      <p class="project-card__desc">Autonomous patrol robot that detects an "intruder" by color, follows it, and returns to its route when it loses it. I owned the OpenCV color-tracking pipeline and false-detection filtering.</p>
+      <ul class="tags"><li>ROS</li><li>Python</li><li>OpenCV</li><li>move_base</li><li>State machines</li></ul>
+      <span class="project-card__cta">Read case study →</span>
+    </div>
+  </a>
+  <a class="project-card" href="4ws-vehicle-dynamics/">
+    <div class="project-card__media"><img class="off-glb" src="../assets/thumbs/4ws-vehicle-dynamics.jpg" alt="Sideslip response plot at 100 km/h" loading="lazy"></div>
+    <div class="project-card__body">
+      <span class="project-card__meta">Controls + modeling · Spring 2026 · EGR 560</span>
+      <h3 class="project-card__title">Four-Wheel Steering Vehicle Dynamics</h3>
+      <p class="project-card__desc">Bicycle-model simulation of rear-wheel steering. The gain that cuts sideslip 70% in town doubles it on the highway; a speed-scheduled gain fixes both.</p>
+      <ul class="tags"><li>MATLAB</li><li>Python / SciPy</li><li>State-space modeling</li><li>Vehicle dynamics</li></ul>
+      <span class="project-card__cta">Read case study →</span>
+    </div>
+  </a>
 </div>
 
 ## Write-ups in progress
@@ -49,12 +69,6 @@ hide:
     <p>Techno-economic design and dispatch modeling of a microgrid.</p>
     <ul class="tags"><li>Xendee</li><li>DER sizing</li><li>Energy economics</li></ul>
   </div>
-  <div class="mini-card">
-    <span class="badge">Coming soon</span>
-    <h3>ROS Color-Tracking Robot</h3>
-    <p>Color-based object tracking on a ROSMASTER X3 platform.</p>
-    <ul class="tags"><li>ROS</li><li>Python</li><li>Computer vision</li></ul>
-  </div>
 </div>
 
 ## Other work
@@ -66,11 +80,6 @@ Shorter course and personal projects.
     <span class="project-card__meta">EGR 538 · Batteries &amp; EV Technologies</span>
     <h3>Passive battery management system</h3>
     <p>Group project designing and testing a passive-balancing BMS for a multi-cell pack.</p>
-  </div>
-  <div class="mini-card">
-    <span class="project-card__meta">EGR 560 · Vehicle Dynamics &amp; Control</span>
-    <h3>Four-wheel-steering vehicle simulation</h3>
-    <p>Modeled and simulated four-wheel-steering handling in a vehicle dynamics package.</p>
   </div>
   <div class="mini-card">
     <span class="project-card__meta">EGR 334</span>
