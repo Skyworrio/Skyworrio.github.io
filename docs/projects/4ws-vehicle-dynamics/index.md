@@ -8,7 +8,7 @@ title: Four-Wheel Steering Vehicle Dynamics
 
 <p class="lede">How much should a car's rear wheels steer, in which direction, and how should that change with speed?</p>
 
-![Sideslip at 100 km/h: 2WS vs fixed vs speed-scheduled rear steering](img/sideslip_100kmh.png)
+![Sideslip at 100 km/h: 2WS vs fixed vs speed-scheduled rear steering](img/sideslip_100kmh.png){ width="560" }
 
 A linear bicycle model of a four-wheel-steering (4WS) car, simulated through a double lane change to compare front-only steering against rear wheels steering opposite to or with the front. The headline result: the rear-steer gain that works best in town **doubles** sideslip on the highway, and scheduling the gain with speed fixes both.
 
@@ -69,7 +69,7 @@ Setting $\dot\beta = \dot r = 0$ with $\beta = 0$ gives the rear-steer gain that
 
 $$K^*(V) = -\,\frac{l_r - \dfrac{m\,l_f\,V^2}{C_r L}}{l_f + \dfrac{m\,l_r\,V^2}{C_f L}}, \qquad L = l_f + l_r$$
 
-![Zero-sideslip gain vs speed](img/k_schedule.png)
+![Zero-sideslip gain vs speed](img/k_schedule.png){ width="520" }
 
 For this car, $K^* \approx -0.28$ at 50 km/h, which is almost exactly the $-0.3$ that worked well above. But $K^*$ crosses zero at **about 67 km/h**, and above that the rear wheels need to steer *with* the front.
 
