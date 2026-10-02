@@ -10,7 +10,7 @@ title: ROS Color-Tracking Robot
 
 <p class="lede">One-sentence description of what this is.</p>
 
-![Hero image](img/TODO.jpg){ width="560" }
+![Hero image](img/TODO.jpg)
 
 Two or three sentences: the problem, who it was for, what the outcome was.
 

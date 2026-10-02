@@ -8,7 +8,7 @@ title: ESP32 Wi-Fi / MQTT Gateway Board
 
 <p class="lede">A custom PCB and firmware that bridges a chain of embedded boards to the internet.</p>
 
-![Assembled Wi-Fi gateway board](img/board-top.jpg){ width="560" }
+![Assembled Wi-Fi gateway board](img/board-top.jpg)
 
 Three of us built a networked cooling-system demo for the ASU Innovation Showcase: a temperature sensor drives a fan through a chain of independent boards, and the whole thing can be monitored and controlled from a web dashboard. I owned the internet side of that — the board that talks to the MQTT broker, the wire protocol the boards use to talk to each other, and the firmware that moves messages between the two.
 
@@ -30,7 +30,7 @@ The board went from schematic to fabricated, assembled, and running at the showc
 
 The demo is a small distributed system. Each board is a self-contained ESP32 node with its own function, and they're wired in a UART daisy chain: every board receives on one port, transmits on the other, and forwards anything that isn't addressed to it. My gateway board sits at the head of the chain and is the only node with Wi-Fi.
 
-![Block diagram](img/block-diagram.png){ width="640" }
+![Block diagram](img/block-diagram.png)
 
 ```mermaid
 sequenceDiagram
@@ -61,7 +61,7 @@ The board accepts two power inputs and regulates both to 3.3 V:
 
 I built a power budget from the datasheet maximums of every load on the 3.3 V rail, then added a 25 % margin: **901 mA → 1.13 A required**, comfortably inside the buck's 3 A rating. A 2 A fuse on the 12 V input protects the harness.
 
-![Power budget](img/power-budget.png){ width="640" }
+![Power budget](img/power-budget.png)
 
 ### Layout
 
@@ -76,15 +76,15 @@ Design choices that mattered on the bench:
 
 <div class="grid" markdown>
 
-![Top layer](img/layout-top.png)
+![Top layer](img/layout-top.png){ .contain }
 
-![Bottom layer](img/layout-bottom.png)
+![Bottom layer](img/layout-bottom.png){ .contain }
 
 </div>
 
 <div class="grid" markdown>
 
-![Bare board as fabricated](img/hero.jpg)
+![Bare board as fabricated](img/bare-board-top.jpg)
 
 ![Assembled board, bottom](img/board-bottom.jpg)
 

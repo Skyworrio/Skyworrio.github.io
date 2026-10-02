@@ -8,7 +8,7 @@ title: Additively Manufactured Capillary Wicks
 
 <p class="lede">Undergraduate research in the 3DX Research Group (ASU) on printing hair-like and channel structures for passive thermal management.</p>
 
-![Branching channel designs A and B](img/designs-a-b.png){ width="380" align=right }
+![Branching channel designs A and B](img/designs-a-b.png)
 
 Heat pipes and vapor chambers cool electronics by moving heat through a capillary wick with no pump. Additive manufacturing can print wick geometries that conventional fabrication can't, which raises a question nature already answered for trees and blood vessels: does a *branching* network move liquid better than straight channels? My current project tests that directly by printing branching capillary networks designed to different scaling laws and racing water through them.
 
@@ -43,13 +43,13 @@ Diameters and lengths are independent choices, so they can be tested separately.
 
 ![Printed transparent test plate](img/printed-plate.jpg)
 
-![Experiment setup: plate dipped in water, flow front tracked on video](img/experiment.png)
+![Experiment setup: plate dipped in water, flow front tracked on video](img/experiment.png){ .contain }
 
 </div>
 
 **The experiment.** The plate is stood in a water bath and the wetting front is tracked on video through the transparent resin. The governing physics is the capillary pressure \(\Delta P = 2\gamma\cos\theta / d\) against viscous drag, so the front follows roughly \(x(t) \propto \sqrt{t}\): narrower channels pull harder but fill slower.
 
-![Capillary physics summary](img/physics.png){ width="720" }
+![Capillary physics summary](img/physics.png)
 
 <!-- TODO: embed the single-channel capillary video once the ID is confirmed, e.g.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="Capillary action test" frameborder="0" allowfullscreen></iframe>
