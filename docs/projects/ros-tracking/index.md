@@ -8,7 +8,7 @@ title: ROS Color-Tracking Patrol Robot
 
 <p class="lede">An autonomous patrol robot that spots an "intruder" by color, chases it, and goes back to its patrol when it loses sight of it.</p>
 
-![Robot detecting and following a blue target card (2× speed)](img/demo.gif){ width="320" }
+![Robot detecting and following a blue target card (2× speed)](img/demo.gif)
 
 Four of us turned a Yahboom ROSMASTER X3 (mecanum base, LiDAR, Orbbec Astra RGB-D camera, Jetson) into a security-style patrol robot for a graduate systems-engineering course. The robot patrols a route, watches its camera feed for a target color, breaks off to follow the target when it appears, and returns to patrol once the target is gone. I owned the color-tracking side: getting detection working on the robot and making it lock onto the right target instead of noise.
 

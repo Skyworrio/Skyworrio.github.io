@@ -121,8 +121,11 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .md-typeset .grid a.glightbox:hover img { box-shadow: 0 10px 24px -12px rgba(0, 0, 0, 0.35); }
-/* Diagrams and layouts: show the whole thing, letterboxed, instead of cropping */
-.md-typeset .grid img.contain { object-fit: contain; background: #ffffff; padding: 0.4rem; }
+/* Plots, diagrams and layouts (PNG/SVG, or .contain): show the whole thing, letterboxed,
+   instead of cropping. JPG photos keep the cropped fill. */
+.md-typeset .grid img.contain,
+.md-typeset .grid img[src$=".png"],
+.md-typeset .grid img[src$=".svg"] { object-fit: contain; background: #ffffff; padding: 0.4rem; }
 
 /* Project meta tables: no header row styling noise */
 .md-typeset table:not([class]) th:empty { display: none; }
@@ -217,7 +220,7 @@
    ========================================================================== */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
   gap: 1.2rem;
   margin: 1.2rem 0 1.5rem;
 }
