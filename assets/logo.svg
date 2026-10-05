@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cade Clonts">
+  <rect width="64" height="64" rx="14" fill="#e8590c"/>
+  <g fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" transform="translate(2.5 0)">
+    <path d="M31.5 24 A11 11 0 1 0 31.5 40"/>
+    <path d="M47.5 24 A11 11 0 1 0 47.5 40"/>
+  </g>
+</svg>
