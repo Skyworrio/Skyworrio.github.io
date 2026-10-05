@@ -7,69 +7,97 @@ hide:
 
 # Resume
 
-<p class="lede">Electrical engineer focused on embedded hardware, power electronics, and controls.</p>
+<p class="lede">Electrical engineering graduate (Magna Cum Laude) in ASU's accelerated M.S. program, focused on embedded hardware and microelectronics. U.S. citizen, eligible for a DoD security clearance, and open to relocation.</p>
 
-<!-- TODO: drop your resume PDF at docs/assets/Cade-Clonts-Resume.pdf, then uncomment the button below.
 [:material-file-download-outline: Download PDF](assets/Cade-Clonts-Resume.pdf){ .md-button .md-button--primary }
--->
+[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/cadeclonts){ .md-button }
+[:fontawesome-solid-envelope: caclonts@gmail.com](mailto:caclonts@gmail.com){ .md-button }
 
 ## Education
 
 <div class="timeline" markdown>
 
 <div class="timeline__item" markdown>
-<div class="timeline__head"><h3>M.S., accelerated program</h3><span class="timeline__when">Expected Spring 2027</span></div>
-<p class="timeline__org">Arizona State University</p>
+<div class="timeline__head"><h3>M.S., Engineering (Accelerated Master's)</h3><span class="timeline__when">Expected Spring 2027</span></div>
+<p class="timeline__org">Arizona State University · Mesa, AZ</p>
 
-- Graduate coursework: power electronic converters, applied photovoltaics, batteries and EV technologies, vehicle dynamics and control, multimodal ML for engineering applications
+- Graduate coursework: Power Electronic Converters &amp; Systems, Engineering Analysis I, Multimodal LLMs for Engineering Applications
 </div>
 
 <div class="timeline__item" markdown>
-<div class="timeline__head"><h3>B.S., Electrical Systems Engineering</h3><span class="timeline__when"><!-- TODO: graduation date --></span></div>
-<p class="timeline__org">Arizona State University</p>
+<div class="timeline__head"><h3>B.S.E., Engineering (Electrical Systems)</h3><span class="timeline__when">May 2026</span></div>
+<p class="timeline__org">Arizona State University · Mesa, AZ</p>
 
-- Coursework projects include a custom ESP32 gateway board (EGR 314), digital filter design (EGR 334), electronic packaging cross-sections (EGR 394), and a two-semester industry capstone (EGR 401/402)
+- GPA 3.62 · Magna Cum Laude · Dean's List (4 terms)
+- Relevant coursework: Heterogeneous Integration &amp; Electronic Packaging, Analog-Digital Interface, Principles of Modern Electromagnetism, Embedded Systems Design I &amp; II, Principles of Systems Engineering (graduate)
 </div>
 
 </div>
 
-## Research
+## Experience
 
 <div class="timeline" markdown>
 
 <div class="timeline__item" markdown>
-<div class="timeline__head"><h3>Undergraduate Researcher, 3DX Research Group</h3><span class="timeline__when">2025 – present</span></div>
-<p class="timeline__org">Arizona State University, The Polytechnic School · Advisor: Dr. Dhruv Bhate</p>
+<div class="timeline__head"><h3>Student Researcher, 3DX Research Group (SCALE)</h3><span class="timeline__when">Nov 2023 – Present</span></div>
+<p class="timeline__org">Arizona State University · Advisor: Dr. Dhruv Bhate</p>
 
-- SURF / SCALE (DoD-supported) summer research fellow, 2026
-- Designing, MSLA-printing, and flow-testing branching capillary networks (Murray's Law, da Vinci's rule, Hack's Law) for passive heat-pipe wicks ([details](projects/capillary-wicks/index.md))
-- Selected the group's Elegoo Saturn 4 Ultra 16K MSLA printer against a $1,000 budget for sub-millimeter hair-like features
-- Co-author, *Additive Manufacturing of Hair-like Materials: Design Principles, Process Constraints, and Manufacturing Strategies*, International Solid Freeform Fabrication Symposium, Austin, TX, August 2026
+- Lead a study of 3D-printed branching capillary channels for electronics cooling, testing Murray's, da Vinci's, and Hack's laws ([details](projects/capillary-wicks/index.md))
+- Selected the group's high-resolution MSLA printer (Elegoo Saturn 4 Ultra 16K) within a $1,000 budget for hair-like structures
+- Compiled the additive manufacturing process comparison for a co-authored SFF 2026 conference paper
+</div>
+
+<div class="timeline__item" markdown>
+<div class="timeline__head"><h3>East Valley Industrial Products (part-time)</h3><span class="timeline__when">Aug 2020 – Present</span></div>
+
+- Fabricate diamond-plate steel water box lids: plasma-cut ~12 blanks per 4×8 ft sheet, bend lips, weld ribs
+- Cross-trained across the full production process; currently responsible for finishing and painting
+</div>
+
+<div class="timeline__item" markdown>
+<div class="timeline__head"><h3>Case IH, Goodman AG</h3><span class="timeline__when">Nov 2020 – Jan 2023</span></div>
+
+- Installed, calibrated, and repaired GPS autopilot systems on farm tractors
+- Diagnosed and resolved autopilot faults on-site, minimizing downtime for growers
 </div>
 
 </div>
 
-## Selected projects
+## Academic projects
 
 <div class="timeline" markdown>
 
 <div class="timeline__item" markdown>
-<div class="timeline__head"><h3>ESP32 Wi-Fi / MQTT Gateway Board</h3><span class="timeline__when">Spring 2025</span></div>
-<p class="timeline__org">ASU EGR 314 · 3-person team · Fulton Innovation Showcase</p>
+<div class="timeline__head"><h3>ESP32 Wi-Fi / MQTT Gateway PCB</h3><span class="timeline__when">EGR 314 · Spring 2025</span></div>
 
-- Designed the schematic, layout, BOM, firmware, and enclosure for an ESP32-S3 board with dual 3.3 V rails (AP62300 buck from 12 V, LDO from USB), sized from a 25 %-margin power budget
-- Designed a fixed-length 64-byte framed UART protocol for a daisy-chained multi-board network with addressing, broadcast, and loop prevention
-- Wrote async MicroPython firmware bridging the chain to an MQTT broker over mutually-authenticated TLS ([details](projects/wifi-mqtt-board/index.md))
+- Designed a custom ESP32-S3 board in Altium as the Wi-Fi gateway for a networked multi-board system, using trade studies to select the MCU and regulator
+- Defined a 64-byte framed UART protocol with addressing, broadcast, and forwarding; wrote async MicroPython firmware publishing sensor data over MQTT with TLS mutual authentication
+- Designed dual power inputs (12 V synchronous buck, 5 V USB LDO) from a load budget with 25% margin; demoed end to end at the Fulton Schools Innovation Showcase ([details](projects/wifi-mqtt-board/index.md))
+</div>
+
+<div class="timeline__item" markdown>
+<div class="timeline__head"><h3>Digital Filter Design</h3><span class="timeline__when">EGR 334 · Fall 2025</span></div>
+
+- Designed a Butterworth IIR digital filter in MATLAB and analyzed its magnitude and phase response
+- Compared it against the team's Chebyshev design, weighing Butterworth's flat passband against Chebyshev's steeper roll-off
+</div>
+
+<div class="timeline__item" markdown>
+<div class="timeline__head"><h3>ROS Computer Vision Color-Tracking Robot</h3><span class="timeline__when">EGR 530 · Spring 2026</span></div>
+
+- Built a computer vision application in ROS on a ROSMASTER X3 mobile robot that detects a target by color in the onboard camera feed and drives the robot to follow it ([details](projects/ros-tracking/index.md))
 </div>
 
 </div>
 
-## Skills
+## Technical skills
 
 | Area | Tools and skills |
 |---|---|
-| **PCB and hardware** | Altium Designer, KiCad, SMT assembly and rework, board bring-up, power-rail design (buck, LDO), BOM and vendor sourcing |
-| **Embedded firmware** | ESP32 (MicroPython, ESP-IDF), PIC (MPLAB/MCC), UART / I2C / SPI, MQTT over TLS, async event loops |
-| **Power and energy** | Converter design and loss analysis, battery management, microgrid modeling (Xendee), PV system design |
-| **Controls and modeling** | MATLAB / Simulink, digital filter design, vehicle dynamics simulation, ROS |
-| **Fabrication** | FDM and MSLA 3D printing, CAD and enclosure design, sheet-metal fabrication |
+| **Hardware** | Altium, KiCad, PCB bring-up, SMT soldering, buck/LDO rail design, oscilloscope, DMM |
+| **Embedded &amp; software** | C, Python, MicroPython, MATLAB, ROS, ESP32, PSoC, UART, I²C, PWM, ADC, MQTT/TLS |
+| **Microelectronics &amp; fab** | SEM, chip cross-sectioning and polishing, MSLA/FDM 3D printing, AutoCAD, welding |
+
+## Publications
+
+I. Chavez Martinez, C. Yuen, **C. Clonts**, Z. Okun, A. Sarrasin, A. Potts, M. Nunez, A. Nizamudeen, R. Duong, H. Emady, C. Ozturk, D. Bhate, "Additive Manufacturing of Hair-like Materials: Design Principles, Process Constraints, and Manufacturing Strategies," accepted for publication in *Proceedings of the 37th Annual International Solid Freeform Fabrication Symposium*, Austin, TX, Aug. 3–5, 2026.

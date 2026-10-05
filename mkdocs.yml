@@ -93,13 +93,12 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/Skyworrio
       name: GitHub
-    # TODO: add your real handle/address, then uncomment (also update the Contact section on index.md)
-    # - icon: fontawesome/brands/linkedin
-    #   link: https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE
-    #   name: LinkedIn
-    # - icon: fontawesome/solid/envelope
-    #   link: mailto:YOUR-EMAIL
-    #   name: Email
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/cadeclonts
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:caclonts@gmail.com
+      name: Email
 
 nav:
   - Home: index.md

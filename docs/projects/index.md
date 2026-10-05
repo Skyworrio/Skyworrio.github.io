@@ -25,7 +25,7 @@ hide:
   <a class="project-card" href="capillary-wicks/">
     <div class="project-card__media"><img class="off-glb" src="../assets/thumbs/capillary-wicks.jpg" alt="MSLA-printed transparent capillary test plate" loading="lazy"></div>
     <div class="project-card__body">
-      <span class="project-card__meta">Research · 2025 – present · 3DX Research Group</span>
+      <span class="project-card__meta">Research · Nov 2023 – present · 3DX Research Group</span>
       <h3 class="project-card__title">Additively Manufactured Capillary Wicks</h3>
       <p class="project-card__desc">Branching capillary channel networks designed to Murray's Law, da Vinci's rule, and Hack's Law, printed by MSLA and flow-tested for passive heat-pipe wicks. SURF / SCALE 2026 fellowship.</p>
       <ul class="tags"><li>MSLA printing</li><li>Design of experiments</li><li>Microscopy</li><li>Fluid physics</li></ul>
@@ -82,9 +82,9 @@ Shorter course and personal projects.
     <p>Group project designing and testing a passive-balancing BMS for a multi-cell pack.</p>
   </div>
   <div class="mini-card">
-    <span class="project-card__meta">EGR 334</span>
+    <span class="project-card__meta">EGR 334 · Analog-Digital Interface · Fall 2025</span>
     <h3>Digital filter design in MATLAB</h3>
-    <p>Designed and compared Butterworth and other IIR filters for an analog-digital interface project.</p>
+    <p>Designed a Butterworth IIR filter and analyzed its magnitude and phase response, then compared it against the team's Chebyshev design: flat passband versus steeper roll-off.</p>
   </div>
   <div class="mini-card">
     <span class="project-card__meta">EGR 394 · Electronic Packaging</span>
