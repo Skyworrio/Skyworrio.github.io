@@ -46,7 +46,7 @@
 /* ==========================================================================
    Layout and typography
    ========================================================================== */
-.md-grid { max-width: 68rem; }
+.md-grid { max-width: 80rem; }
 
 .md-typeset { font-size: 0.8rem; line-height: 1.7; }
 .md-typeset h1 { font-weight: 700; letter-spacing: -0.02em; color: var(--md-default-fg-color); }
@@ -101,14 +101,18 @@
 .md-typeset p:not(.grid > p) > a.glightbox:only-child img,
 .md-typeset p:not(.grid > p) > img:only-child {
   max-width: 100%;
-  max-height: 30rem;
-  width: auto;
   height: auto;
   border: 1px solid var(--cc-border);
 }
+/* Images without an explicit width get a shared size cap; a { width="..." } on the image wins */
+.md-typeset p:not(.grid > p) > a.glightbox:only-child img:not([width]),
+.md-typeset p:not(.grid > p) > img:only-child:not([width]) {
+  max-height: 30rem;
+  width: auto;
+}
 
 /* Image grids: every tile the same square size; click opens the full image */
-.md-typeset .grid:has(img) { gap: 1rem; margin: 1.5em 0; }
+.md-typeset .grid:has(img) { gap: 1rem; margin: 1.5em 0; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); }
 .md-typeset .grid > p { margin: 0; }
 .md-typeset .grid > p > a.glightbox { display: block; }
 .md-typeset .grid img {
@@ -121,8 +125,12 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .md-typeset .grid a.glightbox:hover img { box-shadow: 0 10px 24px -12px rgba(0, 0, 0, 0.35); }
-/* Diagrams and layouts: show the whole thing, letterboxed, instead of cropping */
+/* Plots, diagrams and layouts (PNG/SVG, or .contain): show the whole thing, letterboxed,
+   instead of cropping. JPG photos keep the cropped fill. */
 .md-typeset .grid img.contain { object-fit: contain; background: #ffffff; padding: 0.4rem; }
+/* Plots and diagrams (PNG/SVG) keep their natural shape so axes and legends are never cut off */
+.md-typeset .grid img[src$=".png"]:not(.contain),
+.md-typeset .grid img[src$=".svg"]:not(.contain) { aspect-ratio: auto; height: auto; object-fit: fill; background: #ffffff; }
 
 /* Project meta tables: no header row styling noise */
 .md-typeset table:not([class]) th:empty { display: none; }
@@ -217,7 +225,7 @@
    ========================================================================== */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
   gap: 1.2rem;
   margin: 1.2rem 0 1.5rem;
 }

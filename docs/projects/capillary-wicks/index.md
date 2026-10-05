@@ -18,7 +18,7 @@ Heat pipes and vapor chambers cool electronics by moving heat through a capillar
 |---|---|
 | **Role** | Undergraduate researcher; branching-channel project is my own |
 | **Advisor** | Dr. Dhruv Bhate, The Polytechnic School, ASU |
-| **When** | 2025 – present |
+| **When** | Nov 2023 – present |
 | **Program** | SURF / SCALE (DoD-supported) summer research fellowship, 2026 |
 | **Tools** | MSLA printing (Elegoo Saturn 4 Ultra 16K), CAD, optical microscopy (Keyence VHX), video flow tracking |
 | **Files** | [SURF-SCALE 2026 poster (PDF)](files/SURF-SCALE-2026-poster-Clonts.pdf) |

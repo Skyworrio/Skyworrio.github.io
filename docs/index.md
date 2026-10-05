@@ -20,13 +20,13 @@ hide:
 <div class="hero__actions" markdown>
 [View projects](projects/index.md){ .md-button .md-button--primary }
 [Resume](resume.md){ .md-button }
-[:fontawesome-brands-github: GitHub](https://github.com/Skyworrio){ .md-button }
+[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/cadeclonts){ .md-button }
 </div>
 
 <ul class="hero__facts" markdown>
-<li markdown>:material-school-outline: Arizona State University · M.S. expected 2027</li>
+<li markdown>:material-school-outline: ASU · B.S.E. Magna Cum Laude 2026 · M.S. expected 2027</li>
 <li markdown>:material-map-marker-outline: Phoenix, Arizona</li>
-<li markdown>:material-lightning-bolt-outline: Power · Controls · Defense electronics</li>
+<li markdown>:material-flag-outline: U.S. citizen · clearance-eligible · open to relocation</li>
 </ul>
 
 </div>
@@ -60,7 +60,7 @@ hide:
   <a class="project-card" href="projects/capillary-wicks/">
     <div class="project-card__media"><img class="off-glb" src="assets/thumbs/capillary-wicks.jpg" alt="MSLA-printed transparent capillary test plate" loading="lazy"></div>
     <div class="project-card__body">
-      <span class="project-card__meta">Research · 2025 – present</span>
+      <span class="project-card__meta">Research · Nov 2023 – present</span>
       <h3 class="project-card__title">Additively Manufactured Capillary Wicks</h3>
       <p class="project-card__desc">Do branching channel networks designed to Murray's Law or da Vinci's rule move liquid better? Printed by MSLA and flow-tested for passive heat-pipe wicks in ASU's 3DX Research Group.</p>
       <ul class="tags"><li>MSLA printing</li><li>Design of experiments</li><li>Fluid physics</li><li>Microscopy</li></ul>
@@ -75,12 +75,12 @@ hide:
 
 <div class="skill-card" markdown>
 <div class="skill-card__head" markdown><span class="skill-card__icon" markdown>:material-chip:</span><h3>PCB &amp; hardware design</h3></div>
-<ul class="tags"><li>Altium Designer</li><li>KiCad</li><li>SMT assembly &amp; rework</li><li>Board bring-up</li><li>Buck / LDO rails</li><li>BOM &amp; sourcing</li></ul>
+<ul class="tags"><li>Altium Designer</li><li>KiCad</li><li>SMT soldering &amp; rework</li><li>Board bring-up</li><li>Buck / LDO rails</li><li>Oscilloscope · DMM</li><li>BOM &amp; sourcing</li></ul>
 </div>
 
 <div class="skill-card" markdown>
 <div class="skill-card__head" markdown><span class="skill-card__icon" markdown>:material-code-braces:</span><h3>Embedded firmware</h3></div>
-<ul class="tags"><li>ESP32 (MicroPython, ESP-IDF)</li><li>PIC (MPLAB / MCC)</li><li>UART · I2C · SPI</li><li>MQTT over TLS</li><li>Async event loops</li></ul>
+<ul class="tags"><li>C</li><li>Python / MicroPython</li><li>ESP32</li><li>PSoC</li><li>PIC (MPLAB / MCC)</li><li>UART · I²C · SPI</li><li>PWM · ADC</li><li>MQTT over TLS</li></ul>
 </div>
 
 <div class="skill-card" markdown>
@@ -94,15 +94,17 @@ hide:
 </div>
 
 <div class="skill-card" markdown>
-<div class="skill-card__head" markdown><span class="skill-card__icon" markdown>:material-printer-3d-nozzle:</span><h3>Fabrication</h3></div>
-<ul class="tags"><li>FDM &amp; MSLA 3D printing</li><li>CAD / enclosure design</li><li>Sheet-metal fabrication</li><li>Hand &amp; shop tools</li></ul>
+<div class="skill-card__head" markdown><span class="skill-card__icon" markdown>:material-printer-3d-nozzle:</span><h3>Microelectronics &amp; fabrication</h3></div>
+<ul class="tags"><li>SEM</li><li>Chip cross-sectioning &amp; polishing</li><li>MSLA &amp; FDM 3D printing</li><li>AutoCAD / enclosure design</li><li>Welding</li><li>Sheet-metal fabrication</li></ul>
 </div>
 
 </div>
 
 ## About
 
-I hold a B.S. in Electrical Systems Engineering from Arizona State University and am finishing an accelerated M.S. there (expected Spring 2027), with graduate coursework in power electronic converters, applied photovoltaics, and multimodal ML for engineering applications. Outside of class I do undergraduate research in ASU's 3DX Research Group on additively manufactured structures for passive thermal management.
+I graduated Magna Cum Laude from Arizona State University in May 2026 with a B.S.E. in Engineering (Electrical Systems), and I'm now finishing an accelerated M.S. there (expected Spring 2027), with graduate coursework in power electronic converters and systems, engineering analysis, and multimodal LLMs for engineering applications. Since 2023 I've been a student researcher in ASU's 3DX Research Group through the DoD-supported SCALE program, working on additively manufactured structures for cooling electronics.
+
+Outside the lab I've spent over two years installing, calibrating, and troubleshooting GPS autopilot systems on farm tractors, and I've worked in steel fabrication since 2020. Both taught me to diagnose problems on-site, with someone waiting on the fix.
 
 My interests sit at the intersection of **power and energy**, **controls and automation**, and **defense electronics**, and I'm looking for internship or full-time roles in those areas.
 
@@ -117,11 +119,9 @@ My interests sit at the intersection of **power and energy**, **controls and aut
 </div>
 
 <div class="callout__actions" markdown>
-<!-- TODO: once you add your email/LinkedIn in mkdocs.yml, add buttons here too, e.g.
-[:fontawesome-solid-envelope: Email me](mailto:you@example.com){ .md-button .md-button--primary }
--->
-[Resume](resume.md){ .md-button .md-button--primary }
-[:fontawesome-brands-github: GitHub](https://github.com/Skyworrio){ .md-button }
+[:fontawesome-solid-envelope: Email me](mailto:caclonts@gmail.com){ .md-button .md-button--primary }
+[:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/cadeclonts){ .md-button }
+[Resume (PDF)](assets/Cade-Clonts-Resume.pdf){ .md-button }
 </div>
 
 </div>
