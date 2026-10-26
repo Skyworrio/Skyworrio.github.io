@@ -424,3 +424,5 @@
 /* Let the meta table span the full card (Material wraps tables in inline-block scrollers) */
 .project-meta .md-typeset__scrollwrap { margin: 0; }
 .project-meta .md-typeset__table { display: block; width: 100%; padding: 0; margin: 0; }
+
+.nowrap { white-space: nowrap; }

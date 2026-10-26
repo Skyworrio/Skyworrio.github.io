@@ -31,9 +31,9 @@ The design question is which rule should set the diameters and lengths of a bran
 
 | Law | Sets | Rule | Origin |
 |---|---|---|---|
-| **Murray's Law** | diameters | \(d_0^3 = d_1^3 + d_2^3\) | minimizes viscous flow resistance (blood vessels) |
-| **da Vinci's rule** | diameters | \(d_0^2 = d_1^2 + d_2^2\) | conserves cross-sectional area (tree branches) |
-| **Hack's Law** | lengths | \(L \propto A^{h},\ h \approx 0.586\) | channel length grows with the area it drains (rivers) |
+| **Murray's Law** | diameters | <span class="nowrap">*d*~0~^3^ = *d*~1~^3^ + *d*~2~^3^</span> | minimizes viscous flow resistance (blood vessels) |
+| **da Vinci's rule** | diameters | <span class="nowrap">*d*~0~^2^ = *d*~1~^2^ + *d*~2~^2^</span> | conserves cross-sectional area (tree branches) |
+| **Hack's Law** | lengths | <span class="nowrap">*L* ∝ *A*^*h*^, *h* ≈ 0.586</span> | channel length grows with the area it drains (rivers) |
 
 Diameters and lengths are independent choices, so they can be tested separately. Designs A and B share the same lengths and differ only in the area-conservation law; a later design adds Hack's Law length scaling to isolate that variable.
 
@@ -47,7 +47,7 @@ Diameters and lengths are independent choices, so they can be tested separately.
 
 </div>
 
-**The experiment.** The plate is stood in a water bath and the wetting front is tracked on video through the transparent resin. The governing physics is the capillary pressure \(\Delta P = 2\gamma\cos\theta / d\) against viscous drag, so the front follows roughly \(x(t) \propto \sqrt{t}\): narrower channels pull harder but fill slower.
+**The experiment.** The plate is stood in a water bath and the wetting front is tracked on video through the transparent resin. The governing physics is the capillary pressure Δ*P* = 2*γ* cos *θ* / *d* against viscous drag, so the front follows roughly *x*(*t*) ∝ √*t*: narrower channels pull harder but fill slower.
 
 ![Capillary physics summary](img/physics.png)
 
