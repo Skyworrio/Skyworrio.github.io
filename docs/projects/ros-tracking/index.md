@@ -19,7 +19,7 @@ Four of us turned a Yahboom ROSMASTER X3 (mecanum base, LiDAR, Orbbec Astra RGB-
 | **Role** | Color-tracking implementation and tuning; minimum-area detection logic; integration debugging |
 | **Team** | 4 people (motion control, camera setup / robot ops, system behavior, vision) |
 | **When** | Spring 2026 · ASU EGR 530 |
-| **Tools** | ROS 1, Python, OpenCV, cv_bridge, `move_base` / actionlib, AMCL, tf |
+| **Tools** | ROS 1, Python, OpenCV, cv_bridge |
 | **Files** | [ROS package (zip)](files/patrol_color_tracker.zip) |
 
 </div>

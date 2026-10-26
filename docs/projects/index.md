@@ -38,7 +38,7 @@ hide:
       <span class="project-card__meta">Robotics + vision · Spring 2026 · EGR 530</span>
       <h3 class="project-card__title">ROS Color-Tracking Patrol Robot</h3>
       <p class="project-card__desc">Autonomous patrol robot that detects an "intruder" by color, follows it, and returns to its route when it loses it. I owned the OpenCV color-tracking pipeline and false-detection filtering.</p>
-      <ul class="tags"><li>ROS</li><li>Python</li><li>OpenCV</li><li>move_base</li><li>State machines</li></ul>
+      <ul class="tags"><li>ROS</li><li>Python</li><li>OpenCV</li><li>State machines</li></ul>
       <span class="project-card__cta">Read case study →</span>
     </div>
   </a>
@@ -63,12 +63,6 @@ hide:
     <p>Two-semester senior design prototype for an industry sponsor.</p>
     <ul class="tags"><li>Systems engineering</li><li>Prototyping</li><li>Client requirements</li></ul>
   </div>
-  <div class="mini-card">
-    <span class="badge">Coming soon</span>
-    <h3>Microgrid Design in Xendee</h3>
-    <p>Techno-economic design and dispatch modeling of a microgrid.</p>
-    <ul class="tags"><li>Xendee</li><li>DER sizing</li><li>Energy economics</li></ul>
-  </div>
 </div>
 
 ## Other work
@@ -90,11 +84,6 @@ Shorter course and personal projects.
     <span class="project-card__meta">EGR 394 · Electronic Packaging</span>
     <h3>Electronic packaging cross-sections</h3>
     <p>Cross-sectioned Xbox Series S and One S CPU/GPU and DRAM packages, potted in epoxy, then ground and polished to inspect solder-ball interconnects under a microscope and compare generations.</p>
-  </div>
-  <div class="mini-card">
-    <span class="project-card__meta">Personal</span>
-    <h3>Custom under-desk PC case</h3>
-    <p>Sheet-metal fabrication of a slim PC enclosure.</p>
   </div>
 </div>
 

@@ -1,9 +1,6 @@
 site_name: Cade Clonts
 site_description: Cade Clonts — electrical engineer working in embedded hardware, power electronics, and controls. Engineering project portfolio.
 site_url: https://skyworrio.github.io
-repo_url: https://github.com/Skyworrio
-repo_name: Skyworrio
-edit_uri: ""
 
 theme:
   name: material
@@ -27,8 +24,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  icon:
-    repo: fontawesome/brands/github
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -90,9 +85,6 @@ copyright: "&copy; 2026 Cade Clonts"
 extra:
   generator: false
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Skyworrio
-      name: GitHub
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/cadeclonts
       name: LinkedIn
@@ -110,5 +102,4 @@ nav:
       - Four-Wheel Steering Vehicle Dynamics: projects/4ws-vehicle-dynamics/index.md
       # When a draft is ready: rename projects/<name>_draft.md -> projects/<name>.md and add it here, e.g.
       # - Industry Capstone: projects/capstone.md
-      # - Microgrid Design (Xendee): projects/microgrid.md
   - Resume: resume.md
